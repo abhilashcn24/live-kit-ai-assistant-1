@@ -1,0 +1,3 @@
+[submodule "agents-playground"]
+	path = agents-playground
+	url = https://github.com/abhilashcn24/live-kit-ai-assistant-1.git
