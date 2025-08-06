@@ -46,12 +46,12 @@ export type UserSettings = {
 
 // Fallback if NEXT_PUBLIC_APP_CONFIG is not set
 const defaultConfig: AppConfig = {
-  title: "LiveKit Agents Playground",
+  title: "Pro-Digital Ai",
   description: "A virtual workbench for testing multimodal AI agents.",
   video_fit: "contain",
   settings: {
     editable: true,
-    theme_color: "cyan",
+    theme_color: "dark-green",
     chat: true,
     inputs: {
       camera: true,

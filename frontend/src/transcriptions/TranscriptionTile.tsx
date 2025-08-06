@@ -97,7 +97,19 @@ export function TranscriptionTile({
   ]);
 
   return (
-    <ChatTile messages={messages} accentColor={accentColor} onSend={sendChat} />
+    <div style={{ position: 'sticky', bottom: 0 }}>
+      <ChatTile 
+        messages={messages} 
+        accentColor={accentColor} 
+        onSend={sendChat} 
+        placeholder="text here" 
+        style={{ 
+          backgroundColor: 'white', 
+          borderRadius: '10px', 
+          textAlign: 'center' 
+        }} 
+      />
+    </div>
   );
 }
 
